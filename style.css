@@ -1,0 +1,127 @@
+*{
+   padding: 0;
+   margin: 0;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+    font-size: 5vh;
+    font-style: oblique;
+    text-decoration: underline;
+    text-underline-offset: 14px;
+}
+#box{
+    border: 2;
+    margin-top: 5vh;
+    margin-left: 27vw;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+#box:hover{
+    visibility: visible;
+    opacity:1;
+}
+#top{
+    display: flex;
+    font-size: 10vh;
+    /* border: 2px; */
+}
+#mid{
+    display: flex;
+    font-size: 10vh;
+    /* border: 2px; */
+}
+#down{
+    display: flex;
+    font-size: 10vh;
+    /* border: 2px; */
+}
+#box-1{
+    border: 2px solid;
+    width: 15vw;
+    height: 28vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left-width: 0;
+    border-top-width: 0;
+}
+#box-2{
+    border: 2px solid;
+    width: 15vw;
+    height: 28vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-width: 0;
+}
+#box-3{
+    border: 2px solid;
+    width: 15vw;
+    height: 28vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right-width: 0;
+    border-top-width: 0;
+}
+#box-4{
+    border: 2px solid;
+    width: 15vw;
+    height: 28vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left-width: 0;
+    /* border-top-width: 0; */
+}
+#box-5{
+    border: 2px solid;
+    width: 15vw;
+    height: 28vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box-6{
+    border: 2px solid;
+    width: 15vw;
+    height: 28vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right-width: 0;
+}
+#box-7{
+    border: 2px solid;
+    width: 15vw;
+    height: 28vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left-width: 0;
+    border-bottom-width: 0;
+}
+#box-8{
+    border: 2px solid;
+    width: 15vw;
+    height: 28vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-width: 0;
+}
+#box-9{
+    border: 2px solid;
+    width: 15vw;
+    height: 28vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right-width: 0;
+    border-bottom-width: 0;
+}
+
+
+
